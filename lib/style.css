@@ -1,0 +1,28 @@
+body div{
+    display: grid;
+    place-content: center;
+}
+.contenedor_incidente {
+    display: flex;
+    width: 996px;
+    height: 32px;
+    box-shadow: 1px 1px 5px #0000008f;
+    margin-top: 20px;
+}
+
+.estado_incidente {
+    width: 20.75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'calibri';
+    text-shadow: 1px 1px 15px #000;
+}
+
+
+.estado_incidente > div {
+    text-align: center;
+    width: 100%;
+}
+
